@@ -42,6 +42,13 @@ class _HomeState extends State<Home> {
                             
                 },
               ),
+              actions: <Widget>[
+                IconButton(
+                  icon: Icon(Icons.error, color: Colors.red),
+                  onPressed: () => launch("tel://+91-11-23978046"),
+                ),
+                SizedBox(width: 20,)
+              ],
               centerTitle: true,
               backgroundColor: Colors.white,
               iconTheme: IconThemeData(color: Colors.black),
