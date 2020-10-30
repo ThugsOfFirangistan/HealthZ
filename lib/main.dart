@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:healthz/Screens/Around.dart';
 import 'package:healthz/Screens/Home.dart';
+import 'package:healthz/Screens/SymptomsPage.dart';
+import 'package:healthz/Screens/PreventionPage.dart';
+import 'package:healthz/Screens/Help.dart';
 
 void main() => runApp(Healthz());
 
@@ -8,6 +11,10 @@ class Healthz extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      routes: {
+        '/symptoms': (context) => SymptomsPage(),
+        '/prevention': (context) => PreventionPage(),
+      },
       home: MyStatefulWidget(),
     );
   }
@@ -24,10 +31,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   int _selectedIndex = 0;
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black);
-  List<Widget> _widgetOptions = [
-    Around(),
-    Home()
-  ];
+  List<Widget> _widgetOptions = [Help(), Around(), Home()];
 
   void _onItemTapped(int index) {
     setState(() {
@@ -54,14 +58,6 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             title: Text('Home'),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.insert_chart),
-            title: Text('India'),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.language),
-            title: Text('World'),
           ),
         ],
         unselectedItemColor: Colors.grey,
