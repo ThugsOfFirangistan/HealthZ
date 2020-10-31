@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:healthz/Screens/Around.dart';
+import 'package:healthz/Screens/HealthStats.dart';
 import 'package:healthz/Screens/Home.dart';
 import 'package:healthz/Screens/SymptomsPage.dart';
 import 'package:healthz/Screens/PreventionPage.dart';
@@ -31,7 +32,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   int _selectedIndex = 0;
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black);
-  List<Widget> _widgetOptions = [Help(), Around(), Home()];
+  List<Widget> _widgetOptions = [Help(), Around(), Home(), HealthStatsPage()];
 
   void _onItemTapped(int index) {
     setState(() {
@@ -58,6 +59,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             title: Text('Home'),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.favorite),
+            title: Text('Stats'),
           ),
         ],
         unselectedItemColor: Colors.grey,

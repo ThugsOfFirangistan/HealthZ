@@ -45,6 +45,7 @@ dependencies:
     git:
       url: https://github.com/pichillilorenzo/flutter_inappwebview.git
       ref: master
+  pedometer: ^1.0.0
   
 dev_dependencies:
   flutter_test:
