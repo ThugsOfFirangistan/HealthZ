@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pedometer/pedometer.dart';
 import 'package:healthz/charts.dart';
+import 'package:healthz/imageScanner.dart';
 import 'dart:async';
 
 class HealthStatsPage extends StatefulWidget {
@@ -116,6 +117,8 @@ class _HealthStatsPageState extends State<HealthStatsPage> {
         floatingActionButton: new FloatingActionButton(
           child: new Icon(Icons.center_focus_strong),
           onPressed: () async {
+            foodcal = await Navigator.push(
+                context, MaterialPageRoute(builder: (context) => Scanner()));
             setState(() {
               inputcal = inputcal + double.parse(foodcal);
             });
