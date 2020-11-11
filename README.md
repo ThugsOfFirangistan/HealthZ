@@ -1,40 +1,35 @@
-# ThugsOfFirangistan
+<p align="center"> <img width="300" height="300" src="https://github.com/ThugsOfFirangistan/HealthZ/blob/release/healthz.png">  </p>
 
 # HealthZ
-Dealing with the alarming circumstances of COVID(coronavirus) an outbreak in large numbers, even after Lockdown was removed, experts suggest that social distancing needs to be used to also stay at home and work from home should be adopted as far as a person could. 
 
-Thus, apps and innovative solutions like our app (HealthZ), which promote the same idea can help authorities make the population aware and save lives. The app has come with a Docbot to give answers to user doubts on the current situation. 
+### Healthz is a complete digital healthcare solution.
+
+Dealing with the alarming circumstances of COVID(coronavirus) an outbreak in large numbers, even after Lockdown was removed, experts suggest that social distancing needs to be used to also stay at home and work from home should be adopted as far as a person could.
+
+Thus, apps and innovative solutions like our app (HealthZ), which promote the same idea can help authorities make the population aware and save lives. The app has come with a Docbot to give answers to user doubts on the current situation.
 
 The next feature of HealthZ is to smartly count the user’s calorie intake to monitor the user’s health.
 Our smart application helps you track your calorie consumption and expenditure by monitoring the number of steps you take in a day at home. So, it monitors your health even at home.
 It can help people stay safe and adopt necessary precautions in some areas where there are cases that are booming also it helps stop or prevent community transmission to an extent. Our app updates our client with daily health news related to the virus. Also give necessary details to contact authorities when needed, just a push to SOS button.
-Unlike other applications a user just needs to scan the food product and our application will calculate the calorie content and suggest whether the product is ideal for consumption or not.
-Along with updating our clients our app has promoted reaching out to the vulnerable section of our society by adding the feature of donating through providing the daily items to the needy.
 
+EmoUp is the one-stop-shop for all things positive. With COVID-19 affecting the mental health of people, especially teens and young adults, EmoUp’s objective is to improve the mental health of its users by boosting their confidence and decreasing the stress and anxiety levels that the users are experiencing during these hard times. EmoUp’s main feature is to integently get the person's emotion by recognising its face, where users can then further move to our emotion rebalancing center. 
 
-## Goals
+Here users got various choices like music therapy, inspiration therapy, expression therapy and video therapy. Based on emotion, we will play a music to get a cheerful mood back, inspiration therapy gives boost using famous inspirational quotes, in expression therapy users can write down their thoughts as a form of self-reflection and find reasons for gratitude in their daily life and finally in video therapy users can dive into whole new relaxing world created using echoAR.
+
+Using EmoUp users can boost their mood at any time of the day in just a few seconds.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This project is a starting point for a Flutter application.
 
-## Requirements 
-* Any operating system (i.e. Linux, Windows, MacOS X)
-* A little knowledge of Flutter. Don't worry if you are new to it, you just need knack to learn.
-* Any IDE with Flutter installed (i.e. VSCode, Android Studio, etc)
+A few resources to get you started if this is your first Flutter project:
 
-## Development Setup
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
- - Install Flutter.
- - add Android Studio and setup android device or android emulator
- - Now, run the flutter doctor
- 
-## To start
-
- - move to HealthZ folder
- - flutter pub get 
- - flutter run
-
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
 
 ## Contribution Guidelines
 
@@ -53,14 +48,12 @@ Follow the below guidelines for proper coding practices:
 
 ## Authors
  
-* **Abhi Jain**
+* **Abhi Jain** 
 * **Ajinkya Taranekar** 
-* **Piyush Malviya** 
-* **Yash Tayal**
 
 ## License
 
-This project is licensed under the SGSITS.
+This project is licensed under the Apache License, Version 2.0.
 
 ![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)
 ![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)
